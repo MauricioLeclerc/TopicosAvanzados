@@ -8,6 +8,14 @@ public class Main {
 		double suma=calc.sumar(5, 11);
 		System.out.println(suma);
 		
+		//Suma de 2 numeros negativos.
+		double suma2=calc.sumar(-8, -4);
+		System.out.println(suma2);
+				
+		//Suma de MAX_VALUE y otro numero cualquiera.
+		double suma3=calc.sumar(Double.MAX_VALUE, 24);
+		System.out.println(suma3);
+		
 		//Resta de 2 numeros cualquiera.
 		double resta=calc.restar(18, 4);
 		System.out.println(resta);
