@@ -1,7 +1,10 @@
+import java.awt.image.ConvolveOp;
+
 public class Calculadora {
 	
-	public double sumar(double a, double b){
+	public Double sumar(double a, double b){
 		if ((a+b)>Double.MAX_VALUE) {
+			
 			return Double.MAX_VALUE+1;
 		}
 		else{
