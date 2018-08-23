@@ -20,4 +20,9 @@ public class restar_Test {
 	public void testResta2() {
 		assertTrue(calc.restar(10, 15)<0);
 	}
+	
+	@Test
+	public void testRestaNegativo() {
+		assertTrue(calc.restar(-10, -5)<0);
+	}
 }
